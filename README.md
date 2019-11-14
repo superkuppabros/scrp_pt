@@ -21,3 +21,7 @@ Mac
 $ git clone https://github.com/superkuppabros/scrp_pt.git
 $ python getStageData.py
 ```
+
+## 注意
+- サーバの負荷を軽減するため、実行は最小限に留めるようお願いします。
+- 取得したデータを再配布する等の行為はお控えください。
