@@ -3,9 +3,9 @@
 ## 概要
 
 Pop'nTube の譜面をバックアップする python スクリプトです。  
-`getStageData`では、フォルダ下に`stage/(製作者の名前)/(譜面ID).js`というファイルが生成されます。
-`makeSaveData`では、フォルダ下に`save/(譜面ID).json`というファイルが生成されます。
-このjsonファイルは、Dancing☆Onigiri HTML5エディター( https://github.com/superkuppabros/danoni-editor )で使用可能です。
+`getStageData`では、フォルダ下に`stage/(製作者の名前)/(譜面ID).js`というファイルが生成されます。  
+`makeSaveData`では、フォルダ下に`save/(譜面ID).json`というファイルが生成されます。  
+このjsonファイルは、Dancing☆Onigiri HTML5エディター( https://github.com/superkuppabros/danoni-editor )で使用可能です。  
 
 ## 使い方
 
