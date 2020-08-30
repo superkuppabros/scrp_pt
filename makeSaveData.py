@@ -16,9 +16,12 @@ def baseStrToZeroNumArr(baseStr):
     if(len(tempArr[0]) == 0):
         tempArr.pop(0)
     for str in tempArr:
-        zeros, ones = str.split('l')
+        arr = str.split('l')
+        overL = len(arr) - 2
+        zeros, ones = str.split('l')[:2]
         zerosNum = 1 if len(zeros) == 0 else int(zeros, 20)
         resArr.append(zerosNum)
+        if (overL > 0): resArr.extend([0] * overL)
         if(ones and len(ones) != 0):
             onesNum = int(ones, 20) - 1
             resArr.extend([0] * onesNum)

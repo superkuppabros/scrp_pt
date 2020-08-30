@@ -24,7 +24,7 @@ Mac
 
 ```
 $ git clone https://github.com/superkuppabros/scrp_pt.git
-$ python getStageData.py
+$ python3 getStageData.py
 ```
 
 ## 注意
